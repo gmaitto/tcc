@@ -1,0 +1,117 @@
+/* ============================
+   BOTÃO LARANJA (PRIMARY)
+=============================*/
+.btn-primary {
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #ff751f;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #ff751f;
+  box-shadow: 0 2px 10px #ff751f;
+}
+
+/* ============================
+   BOTÃO VERMELHO (REMOVER / LIMPAR)
+=============================*/
+.btn-danger {
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #ff1f1f;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #fff;
+  color: #ff1f1f;
+  box-shadow: 0 2px 10px #ff1f1f;
+}
+
+/* ============================
+   BOTÃO FINALIZAR COMPRA (MAIOR)
+=============================*/
+.btn-finalizar {
+  border-radius: 12px;
+  font-weight: 700;
+  background-color: #ff751f;
+  color: #fff;
+  border: none;
+  padding: 18px 40px;     /* Botão maior */
+  font-size: 1.4rem;      /* Texto maior */
+  transition: all 0.3s ease;
+}
+
+.btn-finalizar:hover {
+  background-color: #fff;
+  color: #ff751f;
+  box-shadow: 0 4px 20px #ff751f;
+}
+
+/* ============================
+   BOTÃO OUTLINE PERSONALIZADO
+=============================*/
+.btn-outline-dark {
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #ff751f;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #fff;
+  color: #ff751f;
+  box-shadow: 0 2px 10px rgb(255, 255, 255);
+}
+
+/* ============================
+   FUNDO
+=============================*/
+#bg-light {
+  background-color: #000;
+}
+
+/* ============================
+   TÍTULOS BRANCOS
+=============================*/
+.fw-bold {
+  color: #fff;
+}
+
+/* ============================
+   ALINHAMENTO DOS BOTÕES SUPERIORES
+=============================*/
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;     /* Aproxima “Limpar tudo” e “Montar mais carros” */
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+/* ============================
+   CENTRALIZAR FINALIZAR COMPRA
+=============================*/
+.finalizar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Deixar o card vazio em branco */
+#listaCarrinho .text-center.py-5 {
+    background-color: #ffffff !important;
+    border-radius: 12px;
+    padding: 40px;
+}
